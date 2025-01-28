@@ -11,3 +11,4 @@ jupyter_notebooks/
 node_modules/
 build/
 dist/
+assets/
