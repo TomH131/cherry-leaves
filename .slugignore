@@ -1,0 +1,13 @@
+.vscode/
+*.pyc
+__pycache__/
+*.log
+.env
+inputs/*
+outputs/datasets/*
+jupyter_notebooks/
+.git/
+*.dockerfile
+node_modules/
+build/
+dist/
