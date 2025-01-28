@@ -37,7 +37,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 2. Business Requirement 2: Classification
  - As a client I want to predict if a given cherry leaf is healthy or contains powdery mildew.
- - As a client I want to upload multiple images and download the prediction results to action targeted treatments.
+ - As a client I want to upload multiple images for the ML model to make accurate predictions which can be downloaded to action targeted treatments.
 
 ## ML Business Case
 

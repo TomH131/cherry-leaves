@@ -26,6 +26,8 @@ def page_ml_performance_metrics():
         "Here, you can observe how the model's accuracy on the training and validation sets "
         "improved over time, as shown by the accuracy and val_accuracy graphs. Similarly, the "
         "model's error rate decreased over time, as depicted by the loss and val_loss curves."
+        "This shows our hypothesis of reaching the minimum target set by the client of 97% "
+        "accuracy has been met and exceeded."
     )
 
     col1, col2 = st.columns(2)
