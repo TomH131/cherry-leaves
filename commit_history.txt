@@ -1,0 +1,371 @@
+commit 15514504dcae43f0300a904fcee8a7db599df535
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 17:42:55 2025 +0000
+
+    Downgrade python to fit amended dependencies
+
+commit 9efee746ac10a22980a9a999c6b2128f28894bae
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 12:50:33 2025 +0000
+
+    Amending model after dependency issues
+
+commit 90730d841a067744ebabe518abdf6fe2bf812a82
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 12:43:56 2025 +0000
+
+     Add new plots
+
+commit 049dc15d9436fe0afe2ad30b674800c11b69e3d2
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 12:01:21 2025 +0000
+
+    Amending gitignore file
+
+commit 16129fa2c3a853c00c8a926d64ccefc0d7f483c8
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 11:34:58 2025 +0000
+
+    Resolving dependency conflicts
+
+commit bfbab3c0cd6f5ac0113f020d3b2a1d9fa49e4c22
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 11:33:01 2025 +0000
+
+    Resolving dependency conflicts
+
+commit d7f4c79d3af7566b323e7d0037ad448cf9c34727
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 11:29:34 2025 +0000
+
+    Resolving dependency compatibility issues
+
+commit 32cee1305ee4d281af24f7a7da290bfb60f31b0b
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 10:45:09 2025 +0000
+
+    Updating requirements for render
+
+commit 5f7b06f7aa4bdd6bc9674657205262f85b5d6b23
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 10:44:09 2025 +0000
+
+    Updating requirements for render
+
+commit e153a3080d283c026d214c857bf012318148a914
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 10:43:08 2025 +0000
+
+    Updating requirements for render
+
+commit 5e2b453a549dcdabb002ce3ffcfb040d9e879caa
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 10:42:08 2025 +0000
+
+    Updating requirements for render
+
+commit 47284191f122fff39dc4d06eabd0b605afe67b1a
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 10:40:48 2025 +0000
+
+    Updating requirements for render
+
+commit 36001ee679302d48f547c46e7fdf1fb4fafa8b63
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 10:38:24 2025 +0000
+
+    updating requirements.txt
+
+commit 38313d7b13b2ae86423101ddb60857b06ad22c3a
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 27 10:17:29 2025 +0000
+
+    Delete the procfile
+
+commit bf5dbad4ee3720a09f8cca3bcce85441e837ebaa
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 16:11:08 2025 +0000
+
+    Add inputs to .gitignore
+
+commit 5e41d91188d49ffa3bfc8bf92b3714b8f8ff5078
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 16:04:51 2025 +0000
+
+    Add inputs to gitignore
+
+commit b78872f76a123c9322f947d8a870011aceb74423
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 15:57:03 2025 +0000
+
+    Stop tracking inputs folder
+
+commit 2361cb6fdc54ade8d4fccd8eb280a99687916971
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 15:52:18 2025 +0000
+
+    amending inputs
+
+commit 2095eac334e753ec0b8ba61726de6760af4fd3a0
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 15:46:06 2025 +0000
+
+    Stop tracking inputs folder
+
+commit 1dd677a4a6f99b096bb6b7f6b5a841f037c508ee
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 15:43:25 2025 +0000
+
+    Removing inputs from heroku build
+
+commit f293418333876cd125b77ffaaa17c9a5f7d767b9
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 15:42:12 2025 +0000
+
+    Remove inputs folder from version control
+
+commit 22776ba845d19b70b4f9802cac1fac027727ec46
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 15:37:40 2025 +0000
+
+    Updating gitignore
+
+commit 1ef58705f60c1fd45d9a8f87051fb07a009e6d03
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 15:11:12 2025 +0000
+
+    purge cache
+
+commit 571d2a233ab60d46654550d021ec8862dce50ae0
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 13:33:25 2025 +0000
+
+    Undo AWS integration
+
+commit 2f5a7d1d843c68394ca213ca0b6b5981d9f2f5ab
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 11:38:18 2025 +0000
+
+    Updating requirements.txt
+
+commit 2beae08ea9e13ac51c40a51d618e10cfd1ad50e9
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Sun Jan 26 11:35:49 2025 +0000
+
+    Added AWS integration
+
+commit 364d5dece4ca9a5628d820486214a0af089550ba
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Thu Jan 23 11:39:27 2025 +0000
+
+    updating hypotheses on the README file
+
+commit e3e53ec2f1c6600b4e4c5ab88119911fb23bfdb4
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Thu Jan 23 11:31:05 2025 +0000
+
+    Amend wording on dashboard and add more content
+
+commit 61451be37304107e1cb2db5bd901bcbec907576c
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 22 18:33:13 2025 +0000
+
+    Further minor amendments to hypothesis
+
+commit 661f2af26065e0abe89cb6b5424acd7831aa2e3e
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 22 17:33:19 2025 +0000
+
+    Wording amendments to project hypothesis
+
+commit 2627f135eeeda8820752b77a20dcae88ed247519
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 22 16:38:49 2025 +0000
+
+    Completing project hypothesis and validation
+
+commit 3cbf7fa1a219e9791d36f620ff221257481c3b30
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 20 12:54:31 2025 +0000
+
+    Return requirements.txt as was
+
+commit 40b4edbd920e6378d461dfcec8ece53e3ec47d0f
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 20 12:51:57 2025 +0000
+
+    Update requirements file
+
+commit 16c9f0210b88b21a2cc4d730c03372f7867d6178
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 20 12:42:32 2025 +0000
+
+    Remove mildew_detector_model.keras from LFS
+
+commit 7aee6d2c2d9fe39c26dbbeede8a7cd7907d21e85
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 20 11:39:08 2025 +0000
+
+    add design file
+
+commit e1d51ecbd0983d4567d59fbfdced565d32254542
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 20 09:15:51 2025 +0000
+
+    Added unique key value to plotly chart
+
+commit 67bf2f2e1234cf3099f8bc414a8e60dfdc53bebe
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 19:03:40 2025 +0000
+
+    Amending requirements.txt file
+
+commit 19208751077571d985e63ee7360945335c7575ff
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 18:58:26 2025 +0000
+
+    Removing content to reduce slug size
+
+commit c8d9f185093f22348eb222b06d853cf9d95401f2
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 18:43:23 2025 +0000
+
+    Clear outputs in jupyter_notebooks
+
+commit dd7cd0fa2d7c102cc6ab33ed597608bd93118b10
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 18:30:29 2025 +0000
+
+    Amended img names and requirements.txt
+
+commit cffdae3e5096b4c2b9a46bdc22365f073c3d864f
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 11:20:54 2025 +0000
+
+    Update README file
+
+commit ec62705f0c6c5626b0410a2a6e3cfc3734dff449
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:58:16 2025 +0000
+
+    Adding more to .slugignore
+
+commit c5c428673fed2c12ea233a73f8d3977c08b6dd98
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:53:36 2025 +0000
+
+    Removing incorrect model
+
+commit 9573a5184fc4a73c09ab5e207c3cc0026ae1c5b9
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:49:01 2025 +0000
+
+    Taking the output folder out of slugignore
+
+commit 7f71cd690ec146ac186cc3ea609d4c6ddf1df7c0
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:37:06 2025 +0000
+
+    Update .slugignore to reduce slug size
+
+commit 2403b480f10f2741398f66963b57cd5da00cf31e
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:26:12 2025 +0000
+
+    Excluding the contents in slugignore
+
+commit bea3ad8a6d3f486d10185b4293083a81eb4f41d9
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:20:02 2025 +0000
+
+    Moving files to slugignore
+
+commit 8148bf5ac483dab4ea7ef70aa38740442b8c3966
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:14:07 2025 +0000
+
+    Update .gitignore to exlcude datasets
+
+commit db4f3cfcb825c92922f077907b2389a97f8d22de
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:10:44 2025 +0000
+
+    adding folders to gitignore
+
+commit 79bcd5bb0a02638d9081f83d2a6d5ba7b22fdfbf
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 10:09:26 2025 +0000
+
+    add images to gitignore
+
+commit 565efd75b3d97cb6e1ea369212f45b4500eda29c
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 09:56:45 2025 +0000
+
+    Amending the labels
+
+commit 08643a4f863d8ffe4e33f60979cf65526d06cbcd
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Wed Jan 15 09:54:37 2025 +0000
+
+     Add new plots
+
+commit 430c6e57cf44736ce07dac2b5b2aa3542d8c8d72
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Tue Jan 14 22:15:12 2025 +0000
+
+    Wording changes for the dashboard and README
+
+commit b837e558b3aa02fcab2185c1545e2429947d79c1
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Tue Jan 14 11:14:00 2025 +0000
+
+    Some minor wording amendments
+
+commit 27e65bd6992bcb744490490ef1131c4cf239e935
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Tue Jan 14 10:44:01 2025 +0000
+
+    Amendments and updates to the dashboard
+
+commit 4e45aca160a346cd94fc41733b4045ee0f30d7c4
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Tue Jan 14 10:15:12 2025 +0000
+
+    Adding the dashboard
+
+commit b248fc84c34c84b7d8e46be508c83109da7ec22d
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Mon Jan 13 10:24:27 2025 +0000
+
+    Typing up the readme file
+
+commit c160c3b4707b774c885f2178fea6ec18a60644db
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Fri Jan 10 16:05:27 2025 +0000
+
+    Modelling and evaluating
+
+commit eeb10b3a79fc54f899714b0b0da6586183c0b9e2
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Fri Jan 10 16:04:45 2025 +0000
+
+     Add new plots
+
+commit a4852d5afdd25b0cdc713e42fb7ee07b620ca7fd
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Fri Jan 10 14:30:11 2025 +0000
+
+    Data visualization
+
+commit 4e571b22a216b83ad4607f74bae4fce9e06e0d0d
+Author: TomH131 <twhill2010@hotmail.co.uk>
+Date:   Fri Jan 10 13:58:11 2025 +0000
+
+    Data collection and preparation
+
+commit dbefacd9b0dcb5a430c33b22b1bb5c6567f5eea3
+Author: TomH131 <164229320+TomH131@users.noreply.github.com>
+Date:   Thu Jan 9 15:31:37 2025 +0000
+
+    Initial commit

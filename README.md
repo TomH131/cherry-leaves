@@ -43,6 +43,10 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 We aim to develop a machine learning model capable of predicting whether a given cherry leaf is healthy or affected by powdery mildew, using a dataset provided by the client. The primary objective is to reduce the time employees spend identifying fungal infections in cherry trees. The success criterion for the model is achieving an accuracy of 97% or higher. The model will function as a binary classifier, providing predictions based on uploaded images to a dashboard provided to the client.
 
+## ML Model Development
+
+We were fortunate that the first iteration of our machine learning model achieved an accuracy of 100%, which is, of course, the maximum achievable. This exceeds the client's agreed target accuracy of 97% and meets the business requirement of accurately predicting whether a leaf is healthy or not. Given this success, we see no need for further iterations.
+
 ### Current Process and Challenges
 The current process involves manually inspecting each tree, which takes approximately 30 minutes per tree. Employees collect samples to visually verify whether the leaves are healthy or infected with powdery mildew. If a tree is found to be infected, a specific compound is applied to eliminate the fungus, a task that typically takes about a minute per tree. Given that the company manages thousands of trees across multiple farms nationwide, this process consumes thousands of hours and demands a more efficient solution.
 
@@ -114,6 +118,20 @@ List of the libraries used in the project
 - [Render](https://render.com/) - Deployment of dashboard as web application
 - [Git/GitHub](https://github.com/) - Version control and storage of source code
 - [Am I Responsive App](https://ui.dev/amiresponsive) - To produce the main project screenshot
+
+## Issues
+
+### Heroku
+
+Initially, I tried to deploy my project to Heroku, but my slug size was 59MB too large. I searched for solutions online, added as much as I could to the .slugignore file, and purged the cache, but nothing seemed to reduce the size. Eventually, I reached out to Code Institute on Slack, and they recommended deploying the app on Render instead.
+
+### Render 
+
+Following the instructions provided by Code Institute, I set up my project on Render. However, I didn’t initially notice that the Python version they recommended was older than the one I was using. This led to numerous compatibility issues with my dependencies. As a result, I downgraded several dependencies, which caused additional problems in my code. I ultimately decided to start a fresh repo. When deploying this new repo, I made sure to match the Python version on Render with the version I was using locally.
+
+### Commit history
+
+I downloaded the commit history from my previous repo and saved it in a file called commit_history.txt. 
 
 ## Testing
 
