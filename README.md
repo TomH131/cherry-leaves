@@ -2,6 +2,21 @@
 
 ![amiresponsive](assets/images/amiresponsive.png)
 
+## Table of Contents
+1. [Dataset Content](#dataset-content)
+2. [Business Requirements](#business-requirements)
+3. [Hypothesis and how to validate?](#hypothesis-and-how-to-validate)
+4. [The rationale to map the business requirements to the Data Visualizations and ML tasks](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations-and-ml-tasks)
+5. [ML Business Case](#ml-business-case)
+6. [ML Model Development](#ml-model-development)
+7. [Dashboard Design](#dashboard-design)
+8.  [Unfixed Bugs](#unfixed-bugs)
+9. [Deployment](#deployment)
+10. [Main Data Analysis and Machine Learning Libraries](#main-data-analysis-and-machine-learning-libraries)
+11. [Issues](#issues)
+12. [Testing](#testing)
+13. [Credits](#credits)
+
 ## Dataset Content
 
  - The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
@@ -31,27 +46,28 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks 
 
 1. Business Requirement 1: Data Visualization
- - As a client I want to display the "mean" and "standard deviation" images for cherry leaves that are healthy and cherry leaves that contain powdery mildew, so that I can visually differentiate cherry leaves.
- - As a client I want to display the difference between an average cherry leaf that is healthy and a cherry leaf that contains powdery mildew, so that I can visually differentiate cherry leaves.
+ - As a client I want to display the average and variability images for cherry leaves and the difference between the two set of leaves, so that I can visually differentiate cherry leaves.
+ - As a client I want to navigate the dashboard with ease, so that I can use the prediction model and understand the study. 
  - As a client I want to display an image montage for cherry leaves that are healthy and cherry leaves that contain powdery mildew, so that I can  visually differentiate cherry leaves.
 
 2. Business Requirement 2: Classification
- - As a client I want to predict if a given cherry leaf is healthy or contains powdery mildew.
- - As a client I want to upload multiple images for the ML model to make accurate predictions which can be downloaded to action targeted treatments.
+ - As a client I want to predict if a given cherry leaf is healthy or contains powdery mildew, so that I can know if the tree is healthy or not. 
+ - As a client I want to upload multiple images for the ML model to make accurate predictions, so that I can check multiple trees at speed.
+ - As a client I want to download the prediction results from the model, so that I can treat any trees that are infected
 
 ## ML Business Case
 
 We aim to develop a machine learning model capable of predicting whether a given cherry leaf is healthy or affected by powdery mildew, using a dataset provided by the client. The primary objective is to reduce the time employees spend identifying fungal infections in cherry trees. The success criterion for the model is achieving an accuracy of 97% or higher. The model will function as a binary classifier, providing predictions based on uploaded images to a dashboard provided to the client.
-
-## ML Model Development
-
-We were fortunate that the first iteration of our machine learning model achieved an accuracy of 100%, which is, of course, the maximum achievable. This exceeds the client's agreed target accuracy of 97% and meets the business requirement of accurately predicting whether a leaf is healthy or not. Given this success, we see no need for further iterations.
 
 ### Current Process and Challenges
 The current process involves manually inspecting each tree, which takes approximately 30 minutes per tree. Employees collect samples to visually verify whether the leaves are healthy or infected with powdery mildew. If a tree is found to be infected, a specific compound is applied to eliminate the fungus, a task that typically takes about a minute per tree. Given that the company manages thousands of trees across multiple farms nationwide, this process consumes thousands of hours and demands a more efficient solution.
 
 ### Dataset and Privacy Measures
 The dataset provided contains over 4,000 images of leaves from the client’s crops, with an even distribution between healthy and infected leaves. This dataset has been preprocessed and divided into training, validation, and test sets for model development. The data was shared under a non-disclosure agreement (NDA) and is subject to strict privacy and protection measures to ensure compliance with confidentiality requirements.
+
+## ML Model Development
+
+We were fortunate that the first iteration of our machine learning model achieved an accuracy of 100%, which is, of course, the maximum achievable. This exceeds the client's agreed target accuracy of 97% and meets the business requirement of accurately predicting whether a leaf is healthy or not. Given this success, we see no need for further iterations.
 
 ## Dashboard Design
 
@@ -134,6 +150,36 @@ Following the instructions provided by Code Institute, I set up my project on Re
 I downloaded the commit history from my previous repo and saved it in a file called commit_history.txt. 
 
 ## Testing
+
+### User story testing
+
+#### Business requirement 1:
+
+1. As a client I want to display the average and variability images for cherry leaves and the difference between the two set of leaves, so that I can visually differentiate cherry leaves.
+
+ - On the Study Findings page, images of the average cherry leaf, its variability, and the difference between two average images are displayed.
+
+2. As a client I want to navigate the dashboard with ease, so that I can use the prediction model and understand the study. 
+
+ - A navigation bar is present on the side of every page, allowing users to quickly jump to any section.
+
+3. As a client I want to display an image montage for cherry leaves that are healthy and cherry leaves that contain powdery mildew, so that I can  visually differentiate cherry leaves.
+
+ - On the Study Findings page, there is an option to create an image montage for both healthy leaves and those with powdery mildew.
+
+#### Business requirement 2:
+
+1. As a client I want to predict if a given cherry leaf is healthy or contains powdery mildew, so that I can know if the tree is healthy or not. 
+
+ - On the Mildew Detection page, users can upload images for the model to make a prediction.
+
+2. As a client I want to upload multiple images for the ML model to make accurate predictions, so that I can check multiple trees at speed.
+
+ - The Mildew Detection page allows users to upload multiple images at once for batch predictions.
+
+3. As a client I want to download the prediction results from the model, so that I can treat any trees that are infected.
+
+ - After the model generates predictions, a table appears at the bottom of the Mildew Detection page, with an option to download the report.
 
 ### Manual testing
 
