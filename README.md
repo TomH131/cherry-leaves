@@ -117,7 +117,27 @@ List of the libraries used in the project
 
 ## Testing
 
+### Manual testing
+
+On the "Study Findings" page, I tested whether selecting both boxes correctly displays the corresponding images underneath.
+
+![Image box](assets/images/image_box.png)
+
+I also checked that selecting the box enables the option to create an image montage and that the dropdown contains two options: "Healthy" and "Powdery Mildew". After clicking the Create Montage button, a selection of relevant images appears based on the chosen option.
+
+![Image montage](assets/images/image_montage.png)
+
+On the "Mildew Detection" page, I verified that users can upload images and that the model correctly predicts whether the leaf is healthy or affected by powdery mildew.
+
+![Model prediction](assets/images/model_prediction.png)
+
+Finally, I tested that the analysis report appears once the images have been processed and that there is an option to download the report for later use.
+
+![Analysis report](assets/images/analysis_report.png)
+
 ### Validation
+
+The code was put through the [CI Python Linter](https://pep8ci.herokuapp.com/). The only errors were blank whitespaces and lines too long. All errors have been fixed.
 
 ## Credits
 
