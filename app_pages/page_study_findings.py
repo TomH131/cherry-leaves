@@ -11,6 +11,11 @@ import random
 
 
 def page_study_findings_body():
+    """
+    Showing the average and variability images of both healthy and non
+    healthy leaves as well the difference between the two averages images
+    and an image montage
+    """
     st.write("### Cherry Leaf Visualizer")
     st.info(
         "The client is interested in conducting a study to visually "
@@ -52,7 +57,6 @@ def page_study_findings_body():
 
         st.write("---")
 
-    # Differences between average healthy and average infected leaf
     if st.checkbox(
             "Differences between average healthy and average infected leaf"):
         try:
@@ -68,7 +72,6 @@ def page_study_findings_body():
         except FileNotFoundError:
             st.error("Error: 'avg_diff.png' not found.")
 
-    # Image Montage
     if st.checkbox("Image Montage"):
         st.write(
             f"* To refresh the montage, click on the 'Create Montage' button")
@@ -91,14 +94,15 @@ def page_study_findings_body():
 
 
 def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15, 10)):
+    """
+    Creating the image montage
+    """
     sns.set_style("white")
     labels = os.listdir(dir_path)
 
-    # Subset the class you are interested to display
     if label_to_display in labels:
         images_list = os.listdir(os.path.join(dir_path, label_to_display))
 
-        # Check if montage space is greater than subset size
         if nrows * ncols <= len(images_list):
             img_idx = random.sample(images_list, nrows * ncols)
         else:
@@ -109,10 +113,8 @@ def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15, 10)):
             )
             return
 
-        # Create list of axes indices based on nrows and ncols
         plot_idx = list(itertools.product(range(nrows), range(ncols)))
 
-        # Create a Figure and display images
         fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize)
 
         for x in range(nrows * ncols):

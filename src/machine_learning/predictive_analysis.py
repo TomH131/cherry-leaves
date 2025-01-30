@@ -55,7 +55,6 @@ def load_model_and_predict(my_image, version):
     """
     Load and perform ML prediction over live images
     """
-
     model = load_model(f"outputs/{version}/mildew_detector_model.keras")
 
     pred_proba = model.predict(my_image)[0, 0]

@@ -7,7 +7,9 @@ import joblib
 
 
 def download_dataframe_as_csv(df):
-
+    """
+    Download the prediction results to a csv file
+    """
     datetime_now = datetime.now().strftime("%d%b%Y_%Hh%Mmin%Ss")
     csv = df.to_csv().encode()
     b64 = base64.b64encode(csv).decode()

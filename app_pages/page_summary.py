@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 
 
 def page_summary_body():
-
+    """
+    Providing a summary for the project and the business requirements
+    """
     st.write("### Quick Project Summary")
 
     st.info(
